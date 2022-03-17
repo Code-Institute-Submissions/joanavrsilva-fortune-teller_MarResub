@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "thebestfortuneteller",
+  "private_key_id": "140a6db6ea0aace2f6acec264e08fb5972c77467",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCtBlCGMnVPgQmj\nI9+nPod8HR1m6T+aiAAKoQsy1VdSph14ci4sg2EF9/Sg4513tkOjxGRN7Lq4C9pz\nShrjCMLpKB9XDspQADWMXttBgZkwIdaHbqYel/7huaz1krDtEPf5tZ+MyolqG8Zj\nOTzdAB0WyVUMawisaS8eJ84nFbFGVCFR1GPcoR0BmHUwTv4W7ziafi53GEq9wwZk\nY3VA3bFKKb7WMziCDadBgjP1pp+m7q6boJq7g5QCEB518DQ8CUTlmph5wfU9sCcq\nE+qHrKWQ0YYuChcWk9TMb9uAepa9JfD87xGFiJNi103kD9wz6ifuzz7p9MwlqHDW\nQPLen9bvAgMBAAECggEALxspgCerpY4RhB9nrB5Lf6BjmVmGbfl53Wrz5A6OPBuq\nqViYtpi8KQZVTRo7DFUMfEEjN83sFeBwRHQX9tizTAwW4DpQHVC5Q3KtydtRS/fi\ncrPOuUSTaXwGGUOrNJeqk4r9mbSojcFrFSeHqPl3cfU1WPCpB1uJrvGSYDS5M1aQ\nshpAkHhbL7PTQv339gzN+B/+HOsWVFDXLZx6qbdSP9IDNGZEPASnvTq8lphD0Ba6\n1ctzei+zN/QhXHRlwml67f6IdYcikBVC1vHuUGQhmFV6jlWddbzV1JnrLYHh9LWD\nMdibyGieQ0oskonPGi4nG0sRu6UfHP5glgRth7xjYQKBgQDVJFzHA64GjFnHyybF\nPLXNpgcthC/OItmtXZO8hdCGNieulCLJ3FXHjMjiIIg14eQ4Pc/u1Wmhdty714KE\no7cVfczkdOyogyT8cgovepDajJzKn7lttf9lPIeDK9jMIO7kM/MjowoQfQIOcV3Z\nCVVwrsSVdVScNHQApwKIjjsZIQKBgQDP0OHBS3XQrUIiugN/6NOVkZ3Rc60tPBPY\njrJkDfXRWjU6LvmTBaJ4cIeBv9CBkUuH08zD1gstgsffdvfowl0c/2cNgx7yDDTa\nETDupfhu49JwC9sG+h5CavViFpANC9V8jI3bxxHhxhFlSYaxx16gt7/sjpcQyM05\n90I1p8eeDwKBgQCXY3V2cbmoswWN8FCAZYeoItYUUUB3RK+iAMZPcChVO5/h0xwG\njrZqvydr3bmBtAmanOTU+cZGRhuwW/k7ZuFCpZDjb90sL8IUgJeVc5Pxd1BiZyKY\nt11Itb52v60ECBxGAFQhKsuaPIA6a/FBl+yU1b2Rfr3zGRqP4A/fmE6HoQKBgQCk\nid0Evytj8poHhsHYl05XAPk0aeM2ineoIatKnub/P+4eyCygZHiz5VzUtTtwKsrj\nmyVn9OPav85itv4oEyPIHsvIHgX1XQbHlY7plQ0zNzxZrHlZd9VXfvoUFIsvWSxJ\ntbtnxKD64mjJikKUJaddlr7lnCwthN9Awu1wMAxTrwKBgAOeV5A44epXU3FrXwKR\nXAUXOdyiD1aavbuegE2nvUMAEZeb0ex7epjKwZ6ABNvhQ/ecxIoy5HMTbmkFJFV9\nAHzceX9NKGmd6JGwxpoQBrnyj33BsSc8hd6lzmKfZ8bPK7yGfMWGSy6iIwbWwBxx\nj1276rLY/GoQjmE7FBhJo8im\n-----END PRIVATE KEY-----\n",
+  "client_email": "thebestfortuneteller@thebestfortuneteller.iam.gserviceaccount.com",
+  "client_id": "114768633842659093851",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/thebestfortuneteller%40thebestfortuneteller.iam.gserviceaccount.com"
+}
