@@ -21,6 +21,7 @@ def welcome_message():
     print("You can ask me everything you want")
     print("...but if you want better results,")
     print("I advice you to ask questions with Yes or No responses")
+    questionsMade = 0
 
     # Ask user name
     print("Let's start with your name")
@@ -30,6 +31,7 @@ def welcome_message():
 
     # Ask user question
     question = input("Please type your question here:")
+    questionsMade += 1
     print (f"So you ask this '{question}'.")
     print ("Let me see what me eight ball says...")
     print("ups...I mean...my crystal Ball.")
@@ -39,12 +41,13 @@ def welcome_message():
     
     anotherQuestion = input("Please type Yes or No here: ")
 
-    if anotherQuestion != "Yes":
-        print(f"Bye {name}")
+    if anotherQuestion.lower() != "yes":
+        print(f"Bye {name} you ask me " +str(questionsMade) + " question(s)!")
         quit()
     
     print("Okay! What do you want to know now?")
-
+    newQuestion = input ("Please type your new question here: ")
+    questionsMade += 1
 
 
 welcome_message()
