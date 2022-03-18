@@ -12,8 +12,15 @@ SCOPED_CREDS = CREDS.with_scopes(SCOPE)
 GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('fortune_teller')
 
-information = SHEET.worksheet('information')
 
-data = information.get_all_values()
+def welcome_message():
+    """
+    Welcome message
+    """
+    print("Welcome child to the Best Fortune Teller!")
+    print("You can ask me everything you want")
+    print("...but if you want better results,")
+    print("I advice you to ask questions with Yes or No responses")
 
-print(data)
+
+welcome_message()
