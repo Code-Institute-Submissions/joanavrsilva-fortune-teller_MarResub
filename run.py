@@ -41,7 +41,7 @@ def welcome_message():
     # Give user an answer 
     allMagicBallAnswers = SHEET.worksheet('allMagicBallAnswers')
 
-    answerGiven = allMagicBallAnswers.get_all_values()
+    answerGiven = allMagicBallAnswers.col_values(1)
 
     print(random.choice(answerGiven))
 
