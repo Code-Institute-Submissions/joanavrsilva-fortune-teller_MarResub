@@ -27,39 +27,35 @@ def welcome_message():
     # Ask user name
     print("Let's start with your name")
 
-    name = input ("Please type your name here:")
+    name = input("Please type your name here:")
     print(f"So {name} what do you want to know?")
 
     # Ask user question
     question = input("Please type your question here:")
     questionsMade += 1
-    print (f"So you ask this '{question}'.")
-    print ("Let me see what my magic eight ball says...")
+    print(f"So you ask this '{question}'.")
+    print("Let me see what my magic eight ball says...")
     print("ups...I mean...my crystal ball.")
     print("The awnswer is...")
 
-    # Give user an answer
-    answers = ["It is certain.","It is decidedly so.",
-    "Without a doubt.","Yes definitely.","You may rely on it.",
-    "As I see it, yes.","Most likely.","Outlook good.","Yes.",
-    "Signs point to yes.","Reply hazy, try again.","Ask again later.",
-    "Better not tell you now.","Cannot predict now.",
-    "Concentrate and ask again.","Don't count on it.",
-    "My reply is no.","My sources say no.","Outlook not so good.",
-    "Very doubtful."]
-    print(random.choice(answers))
+    # Give user an answer 
+    allMagicBallAnswers = SHEET.worksheet('allMagicBallAnswers')
+
+    answerGiven = allMagicBallAnswers.get_all_values()
+
+    print(random.choice(answerGiven))
 
     # Ask if user wants to continue or leave
-    print (f" {name} Do you want to ask me anything else?")
+    print(f" {name} Do you want to ask me anything else?")
     
     anotherQuestion = input("Please type Yes or No here: ")
 
     if anotherQuestion.lower() != "yes":
-        print(f"Bye {name} you ask me " +str(questionsMade) + " question(s)!")
+        print(f"Bye {name} you ask me " + str(questionsMade) + " question(s)!")
         quit()
     
     print("Okay! What do you want to know now?")
-    newQuestion = input ("Please type your new question here: ")
+    newQuestion = input("Please type your new question here: ")
     questionsMade += 1
 
 
