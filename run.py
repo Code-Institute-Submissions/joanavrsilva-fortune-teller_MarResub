@@ -22,5 +22,9 @@ def welcome_message():
     print("...but if you want better results,")
     print("I advice you to ask questions with Yes or No responses")
 
+    print("Let's start with your name")
+
+    name = input ("Please type your name here:")
+    print(f"So {name} what do you want to know?")
 
 welcome_message()
