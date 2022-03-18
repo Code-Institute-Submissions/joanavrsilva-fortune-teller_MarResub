@@ -1,10 +1,9 @@
-<h1 align="center" color="blue">...</h1>
+<h1 align="center">Fortune Teller</h1>
 
-[Click here to view the live project](...)
+[Click here to view the live project](https://the-best-fortune-teller.herokuapp.com/)
 
+![respons image](https://user-images.githubusercontent.com/83631970/158982938-31d7a8e8-ce44-4206-826c-b82d7466fc5e.png)
 
-
-![Screenshot](https://...)
 ---
 
 # Table of contents
