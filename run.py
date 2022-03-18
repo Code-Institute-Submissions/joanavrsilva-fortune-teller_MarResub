@@ -1,5 +1,5 @@
 """
-bbb
+Import random for answers and google sheet with the answers
 """
 import random
 import gspread
@@ -18,7 +18,7 @@ GSPREAD_CLIENT = gspread.authorize(SCOPED_CREDS)
 SHEET = GSPREAD_CLIENT.open('fortune_teller')
 
 
-def welcome_message():
+def fortune_teller():
     """
     Welcome message
     """
@@ -58,7 +58,7 @@ def welcome_message():
 
     elif another_question.lower() == "yes":
         print("Okay! What do you want to know now?")
-        new_question = input("Please type your new question here: ")
+        new_question = input("Please type your new question:\n ")
         print(f"So you ask this '{new_question}'.")
         print("Let me see what my magic eight ball says...")
         print("ups...I mean...my crystal ball. \n")
@@ -71,7 +71,8 @@ def welcome_message():
         print(random.choice(answer_given))
 
         print(f" {name} I hope I was able to answer some of your questions!")
+        print("Bye! See you next time!")
         quit()
 
 
-welcome_message()
+fortune_teller()
