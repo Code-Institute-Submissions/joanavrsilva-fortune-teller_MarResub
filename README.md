@@ -14,17 +14,17 @@ In this project that runs on a terminal created by Code Institute, we have a wel
 # Table of contents
 
 - [User Experience](#user-experience)
-    - [Website owner business goals](#website-owner-business-goals)
     - [User Experience](#user-stories)
-    - [User stories](#user-stories)
+        - [User stories](#user-stories)
 - [Design](#design)
     - [Diagrams](#diagrams)
     - [FlowChart](#flowchart)
 - [Features](#features)
-- [Technology](#technology)
+- [Technologies Used](#technology)
 - [Testing](#testing)
     - [Code Validation](#code-validation)
     - [Performance testing](#performance-testing)
+- [Resolved Issues](#resolved_issues)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
@@ -47,8 +47,7 @@ ___
 [Back to Table of contents](#table-of-contents)
 ___
 
-
-## Features
+# Features
 ![Screenshot (246)](https://user-images.githubusercontent.com/83631970/158986990-fdd89480-9800-44fa-9ff3-eec28f35a5ed.png)
 * Welcome message
 ![1](https://user-images.githubusercontent.com/83631970/158987384-9301f495-a504-4744-b1c9-f87b4eb1371e.png)
@@ -59,7 +58,7 @@ ___
 [Back to Table of contents](#table-of-contents)
 ___
 
-### Tecnologies Used
+# Tecnologies Used
 * Python;
 * Heroku;
 * Node.js;
@@ -68,18 +67,29 @@ ___
 [Back to Table of contents](#table-of-contents)
 ___
 
-
-### Testing
-#### Code Validation
+# Testing
+## Code Validation
 * PEP-8 - all errors fixed 
+
+[Back to Table of contents](#table-of-contents)
 ___
 
-#### Performance testing
+## Performance testing
 ![light](https://user-images.githubusercontent.com/83631970/158993597-d9f6c47b-5dd2-4a2c-bd28-923d32930c91.png)
 
 [Back to Table of contents](#table-of-contents)
 ___
-### Deployment
+
+# Resolved Issues
+![erro 1](https://user-images.githubusercontent.com/83631970/158995898-d78032a1-f4f2-4ce7-850a-a58667310995.png)
+- [x] I fixed this error by changing the name of the google sheets sheet.
+![erro 2](https://user-images.githubusercontent.com/83631970/158995908-a5e4f157-eaa8-4eac-b500-fba9ab382176.png)
+- [x] I fixed this error of a string answer with brackets changing the get_all_values funtion for all_magic_ball_answers.col_values(1) function.
+
+[Back to Table of contents](#table-of-contents)
+___
+
+# Deployment
 This project was deployed using Code Institue's mock terminal for Heroku.
 The steps for deployment are:
 
