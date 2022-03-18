@@ -27,4 +27,10 @@ def welcome_message():
     name = input ("Please type your name here:")
     print(f"So {name} what do you want to know?")
 
+    question = input("Please type your question here:")
+    print (f"So you ask this '{question}'.")
+    print ("Let me see what me eight ball says...")
+    print("ups...I mean...my crystal ball.")
+
+
 welcome_message()
