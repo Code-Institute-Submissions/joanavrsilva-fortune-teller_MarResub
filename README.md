@@ -8,16 +8,14 @@
 
 # Table of contents
 
-- [UX](#ux)
+- [User ExperienceX](#ux)
     - [Website owner business goals](#website-owner-business-goals)
-    - [User goals](#user-goals)
-        - [New user goals](#new-user-goals)
-        - [Returning user goals](#returning-user-goals)
-        - [Website owner business goals](#website-owner-business-goals)
+    - [User Experience](#user-stories)
     - [User stories](#user-stories)
     - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
     - [Surface](#surface)
+- [Design](#design)
 - [Features](#features)
 - [Technology](#technology)
 - [Testing](#testing)
@@ -29,7 +27,6 @@
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
-- [Screenshots](#screenshots)
 
 # User Experience
 ## User stories
@@ -38,28 +35,7 @@
         2. As a Visitor, I want to be able to easily play the game.
         3. As a Visitor, I want to have a good time.
 
-
-## Website owner business goals
-
-## User goals
-
-### New user goals:
-
-### Returning user goals:
-
-## User stories
-
-### As a business owner:
-
-
-### As a new customer:
-
-### As a returning customer:
-
-
-## Structure of the website
-
-
+# Design
 ## Wireframes
 
 ![Wireframes](...)
