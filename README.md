@@ -65,16 +65,16 @@ ___
 ___
 
 
-___
-
 ### Testing
 #### Code Validation
 * PEP-8 - all errors fixed 
 ___
 
 #### Performance testing
-___
+![light](https://user-images.githubusercontent.com/83631970/158993597-d9f6c47b-5dd2-4a2c-bd28-923d32930c91.png)
 
+[Back to Table of contents](#table-of-contents)
+___
 ### Deployment
 This project was deployed using Code Institue's mock terminal for Heroku.
 The steps for deployment are:
