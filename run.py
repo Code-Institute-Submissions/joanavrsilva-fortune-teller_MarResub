@@ -34,5 +34,17 @@ def welcome_message():
     print ("Let me see what me eight ball says...")
     print("ups...I mean...my crystal Ball.")
 
+    # Ask if user wants to continue or leave
+    print (f" {name} Do you want to ask me anything else?")
+    
+    anotherQuestion = input("Please type Yes or No here: ")
+
+    if anotherQuestion != "Yes":
+        print(f"Bye {name}")
+        quit()
+    
+    print("Okay! What do you want to know now?")
+
+
 
 welcome_message()
