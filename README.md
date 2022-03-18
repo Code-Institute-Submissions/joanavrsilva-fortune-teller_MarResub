@@ -56,10 +56,10 @@ ___
 ___
 
 ### Tecnologies Used
-* Python
-* Heroku
-* Node.js
-* Google Sheets API
+* Python;
+* Heroku;
+* Node.js;
+* Google Sheets API.
 
 [Back to Table of contents](#table-of-contents)
 ___
@@ -69,12 +69,22 @@ ___
 
 ### Testing
 #### Code Validation
+* PEP-8 - all errors fixed 
 ___
 
 #### Performance testing
 ___
 
 ### Deployment
+This project was deployed using Code Institue's mock terminal for Heroku.
+The steps for deployment are:
+
+- Sign in to Heroku;
+- Create a new Heroku app;
+- In settings, add two config vars: Key Port and value 8000 and other with the Key CREDS of my creds.json; 
+- Set the buildbacks to Python and NodeJS;
+- Connect the Heroku app to the GitHub repository
+- Deploy the project
 
 [Back to Table of contents](#table-of-contents)
 ___
