@@ -73,3 +73,12 @@ ___
 [Back to Table of contents](#table-of-contents)
 ___
 
+### Credits
+
+* I used the code teach in the Code Institute Python lessons;
+* I used the teachings about google sheets learned in the Love Sandwiches lesson
+* I used the information in ![wikipedia](https://en.wikipedia.org/wiki/Magic_8-ball) about the game Magic 8-Ball
+
+[Back to Table of contents](#table-of-contents)
+___
+
