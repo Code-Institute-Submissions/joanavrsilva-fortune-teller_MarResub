@@ -31,7 +31,13 @@
 - [Credits](#credits)
 - [Screenshots](#screenshots)
 
-# UX
+# User Experience
+## User stories
+
+        1. As a Visitor, I want to easily understand the main purpose of the app.
+        2. As a Visitor, I want to be able to easily play the game.
+        3. As a Visitor, I want to have a good time.
+
 
 ## Website owner business goals
 
