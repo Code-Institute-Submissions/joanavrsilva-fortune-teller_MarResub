@@ -4,6 +4,11 @@
 
 ![respons image](https://user-images.githubusercontent.com/83631970/158982938-31d7a8e8-ce44-4206-826c-b82d7466fc5e.png)
 
+Welcome to the Best Fortune Teller! Do you want to know your future? Just ask our program which relies on the answers from the famous Magic 8-Ball game. This project was created for educational purposes only and was created as a project for the Code Institute course.
+Welcome to the best fortune teller. Want to know your future? Just ask our program which relies on the answers from the famous Magic 8-Ball game. This project was created for educational purposes only and was created as a project for the Code Institute course.
+
+In this project that runs on a terminal created by Code Institute, we have a welcome message, then the user has to enter the name, asks a question and the program runs a random answer based on the game Magic 8-Ball.
+
 ---
 
 # Table of contents
@@ -18,11 +23,7 @@
 - [Features](#features)
 - [Technology](#technology)
 - [Testing](#testing)
-    - [Functionality testing](#functionality-testing)
-    - [Compatibility testing](#compatibility-testing)
     - [Code Validation](#code-validation)
-    - [User stories testing](#user-stories-testing)
-    - [Issues found during site development](#issues-found-during-site-development)
     - [Performance testing](#performance-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -49,8 +50,11 @@ ___
 
 ## Features
 ![Screenshot (246)](https://user-images.githubusercontent.com/83631970/158986990-fdd89480-9800-44fa-9ff3-eec28f35a5ed.png)
+* Welcome message
 ![1](https://user-images.githubusercontent.com/83631970/158987384-9301f495-a504-4744-b1c9-f87b4eb1371e.png)
+* Asks for name and question
 ![2](https://user-images.githubusercontent.com/83631970/158987386-d945396c-2cd8-4741-a482-29e3c49a2e50.png)
+* Gives an answer
 ![3](https://user-images.githubusercontent.com/83631970/158987504-d5dc98d2-0653-4149-8c4f-f6cf2a7578d9.png)
 [Back to Table of contents](#table-of-contents)
 ___
